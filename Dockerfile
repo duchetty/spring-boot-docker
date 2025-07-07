@@ -2,4 +2,4 @@ FROM openjdk:17-jdk-slim
 WORKDIR /user/app
 COPY tagget/springbootapp.jar /user/app
 EXPOSE 8080
-ENTRYPOINT [ "java", "-jar", "app.jar" ]
+ENTRYPOINT [ "java", "-jar", "springbootapp.jar" ]
