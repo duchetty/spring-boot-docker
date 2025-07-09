@@ -11,6 +11,6 @@ public class WelcomeController {
 	@GetMapping("/msg")
 	public String getMessage()
 	{
-		return "Welcome to Docker application";
+		return "Welcome to Docker application in aws";
 	}
 }
